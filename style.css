@@ -1,8 +1,8 @@
 header {
-    background-image: url("http://hdqwalls.com/wallpapers/bthumb/abstract-sharp-shapes-diagonal-geometry-cv.jpg");
+    background-image: url("http://www.wallpapereast.com/static/images/cool-wallpaper-mobile-3.jpg");
     width: 100vw;
     height: 100vh;
-    background-repeat: no-repeat;
+    display: flex;
 }
 
 h1, h2, h3 {
@@ -11,7 +11,13 @@ h1, h2, h3 {
 }
 
 .name {
+    font-size: 4em;
+    text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+.job-title {
     font-size: 2em;
+    text-shadow: 2px 2px 5px #FFFFFF;
 }
 
 p{
@@ -19,16 +25,25 @@ font-family: 'Oswald', sans-serif;
 }
 
 body {
-    background-color: #494949;
-    color: #f4c20c;
+    background-color: #000;
+    color: #3F017E;
+    width: 100vw;
+    margin: auto;
 }
 
 aside {
     width: 35vw;
 }
 
-
-
 footer {
     text-align: center;
+}
+
+.name-container{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 30vw;
+    padding: 4rem;
+    justify-content: center;
+    margin: auto;
 }
