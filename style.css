@@ -1,6 +1,6 @@
 header {
     background-image: url("http://www.wallpapereast.com/static/images/cool-wallpaper-mobile-3.jpg");
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
     display: flex;
 }
@@ -20,23 +20,60 @@ h1, h2, h3 {
     text-shadow: 2px 2px 5px #FFFFFF;
 }
 
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p{
 font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+
 }
 
 body {
     background-color: #000;
     color: #3F017E;
-    width: 100vw;
+    width: 95vw;
     margin: auto;
+}
+
+
+.wrapper {
+    display: flex;
+    border: 1px solid #FFF;
+}
+
+.wrapper > * {
+    flex: 1 100%;
+}
+
+.column{ 
+    padding: 1rem;
+    flex: 50%;
+}
+
+article {
+    margin-top: 2em;
+}
+
+section {
+    padding: 2rem;
 }
 
 aside {
     width: 35vw;
+    padding-left: 2rem;
 }
 
 footer {
     text-align: center;
+    padding-top: 15vh;
+    height: 20vh;
 }
 
 .name-container{
