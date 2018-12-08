@@ -1,17 +1,25 @@
 header {
     background-image: url("https://www.desktopbackground.org/p/2013/12/07/681878_wallpaper-abstract-origami-minimalism-black-and-white-simple_2560x1600_h.png");
     width: 95vw;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     background-repeat: no-repeat;
     background-position: -50% 50%;
 }
 
-h1, h2, h3 {
+h1, h2{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #000;
 
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 
 .name {
@@ -19,7 +27,7 @@ h1, h2, h3 {
 }
 
 .job-title {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .image-center {
@@ -34,7 +42,6 @@ p{
 
 li {
     font-family: 'Oswald', sans-serif;
-
 }
 
 body {
@@ -65,6 +72,7 @@ article {
 
 section {
     padding: 2rem;
+    border-left: 1px solid #000;
 }
 
 aside {
@@ -89,7 +97,7 @@ footer {
 .parallax { 
 
   background-image: url("http://pngimg.com/uploads/paper_plane/paper_plane_PNG20.png");
-  height: 200px; 
+  height: 100px; 
   width: 95vw;
   background-attachment: fixed;
   background-position: center;
