@@ -85,3 +85,14 @@ footer {
     justify-content: center;
     margin: auto;
 }
+
+.parallax { 
+
+  background-image: url("http://pngimg.com/uploads/paper_plane/paper_plane_PNG20.png");
+  height: 100px; 
+  width: 95vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
