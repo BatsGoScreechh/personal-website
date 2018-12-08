@@ -89,10 +89,12 @@ footer {
 .parallax { 
 
   background-image: url("http://pngimg.com/uploads/paper_plane/paper_plane_PNG20.png");
-  height: 100px; 
+  height: 200px; 
   width: 95vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
 }
