@@ -10,15 +10,21 @@
     <title>David Bird</title>
 </head>
 
-<body>
+<body onload="startTime()">
 
      <header>
-        <div class="name-container">
+         <div class="name-container">
             <h1 class="name">David Bird</h1>
       
             <h2 class="job-title">Web Developer</h2>
         </div>
     </header>  
+    <div id="clockdate">
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+        </div>
+      </div>
     <div class="parallax"></div>
     <div class="wrapper">
         <div class="column">
@@ -57,6 +63,6 @@
   <footer>
       Built by David Bird
   </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
