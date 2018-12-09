@@ -83,8 +83,13 @@ aside {
 
 footer {
     text-align: center;
-    padding-top: 15vh;
-    height: 20vh;
+    padding-top: 2vh;
+    height: 5vh;
+    width: 95vw;
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+
 }
 
 .name-container{
@@ -136,3 +141,4 @@ footer {
 }
 
 /* End Clock CSS */
+
