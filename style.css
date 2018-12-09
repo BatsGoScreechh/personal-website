@@ -4,8 +4,12 @@ header {
     height: 100vh;
     display: flex;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-position: -50% 20%;
     background-attachment: fixed;
+=======
+    background-position: -50% 50%;
+>>>>>>> 0fd246479ef9e2558db238574b642c33d5f3e4c5
 }
 
 h1, h2{
@@ -13,6 +17,7 @@ h1, h2{
     font-family: 'Open Sans Condensed', sans-serif;
     color: #000;
 
+<<<<<<< HEAD
 }
 
 h3 {
@@ -21,6 +26,8 @@ h3 {
     color: #000;
     font-size: 1.5em;
     text-decoration: underline;
+=======
+>>>>>>> 0fd246479ef9e2558db238574b642c33d5f3e4c5
 }
 
 .name {
@@ -28,7 +35,11 @@ h3 {
 }
 
 .job-title {
+<<<<<<< HEAD
     font-size: 2.5em;
+=======
+    font-size: 2em;
+>>>>>>> 0fd246479ef9e2558db238574b642c33d5f3e4c5
 }
 
 .image-center {
@@ -46,7 +57,11 @@ li {
 }
 
 body {
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255, 0.3);
+=======
+    background-color: #fff;
+>>>>>>> 0fd246479ef9e2558db238574b642c33d5f3e4c5
     color: #000;
     width: 95vw;
     margin: auto;
@@ -94,6 +109,7 @@ footer {
     justify-content: center;
     margin: auto;
 }
+<<<<<<< HEAD
 
 .parallax { 
 
@@ -136,3 +152,5 @@ footer {
 }
 
 /* End Clock CSS */
+=======
+>>>>>>> 0fd246479ef9e2558db238574b642c33d5f3e4c5
