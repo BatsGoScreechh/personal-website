@@ -46,7 +46,7 @@ li {
 }
 
 body {
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: #FFF;
     color: #000;
     width: 95vw;
     margin: auto;
@@ -55,7 +55,7 @@ body {
 
 .wrapper {
     display: flex;
-    border: 1px solid #FFF;
+    border: 1px solid #000;
 }
 
 .wrapper > * {
@@ -68,15 +68,18 @@ body {
 }
 
 article {
+
     margin-top: 2em;
 }
 
 section {
+
     padding: 2rem;
     border-left: 1px solid #000;
 }
 
 aside {
+
     width: 20vw;
     padding-left: 2rem;
 }
